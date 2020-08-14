@@ -1,6 +1,7 @@
 # 🚀 'Proffy' é um Projeto da [Rocketseat](https://rocketseat.com.br/) - 2º Next Level Week
 
 ## 📑 Descrição do projeto:
+
 <p>
 É uma plataforma voltada para estudos EAD, onde existem dois tipos de usuários,
 alunos e professores. 
@@ -11,19 +12,21 @@ Já o aluno pode procurar um professor pelos mesmos itens que aquele professor �
 
 </p>
 
- ---
+---
 
 ## 🤯 Aprendi sobre:
+
 - React;
 - TypeScript;
+- Node.js;
+- Banco de dados SQLite3;
 - Elementos e maneiras diferentes de utilizar o CSS;
-- Responsividade;
+- Aprendizado do conceito de 'Mobile First'.
 
- ---
+  ***
 
- ## 🎥 Preview:
+## 🎥 Preview:
 
- Obs.: Apenas uma demonstração de como ficou o layout da aplicação, todas as funcionalidades já foram aplicadas e estão funcionando.
+Obs.: Apenas uma demonstração de como ficou o layout da aplicação, todas as funcionalidades já foram aplicadas e estão funcionando.
 
-<img src="web/src/assets/images/preview1.gif">
-
+<img src="web/src/assets/images/proffv1.gif">
