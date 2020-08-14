@@ -1,61 +1,66 @@
 :root {
-    font-size: 60%;
+  font-size: 60%;
 
-    --color-background: #F0F0F7;
-    --color-primary-lighter: #0353A4;
-    --color-primary-light: #023E7D;
-    --color-primary: #002855;
-    --color-primary-dark: #001845;
-    --color-primary-darker: #001233;
-  
-    --color-secondary: #DF0209;
-    --color-secondary-dark: #b60006;
-  
-    --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #caf0f8;
-    --color-text-title: #002855;
-    --color-text-complement: #0353A4;
-    --color-text-base: #023E7D;
-    --color-line-in-white: #E6E6F0;
-    --color-input-background: #F8F8FC;
-    --color-button-text: #FFFFFF;
-    --color-box-base: #FFFFFF;
-    --color-box-footer: #FAFAFC;
-    --color-small-info: #C1BCCC;
+  --color-background: #f0f0f7;
+  --color-primary-lighter: #0353a4;
+  --color-primary-light: #023e7d;
+  --color-primary: #2196f3;
+  --color-primary-dark: #001845;
+  --color-primary-darker: #001233;
+
+  --color-secondary: #df0209;
+  --color-secondary-dark: #b60006;
+
+  --color-title-in-primary: #ffffff;
+  --color-text-in-primary: #caf0f8;
+  --color-text-title: #002855;
+  --color-text-complement: #0353a4;
+  --color-text-base: #023e7d;
+  --color-line-in-white: #e6e6f0;
+  --color-input-background: #f8f8fc;
+  --color-button-text: #ffffff;
+  --color-box-base: #ffffff;
+  --color-box-footer: #fafafc;
+  --color-small-info: #c1bccc;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body, #root {
-    height: 100vh;
+html,
+body,
+#root {
+  height: 100vh;
 }
 
 body {
-    background-color: var(--color-background);
+  background-color: var(--color-background);
 }
 
 #root {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-body, input, button, textarea {
-    font: 500 1.6rem Poppins;
-    color: var(--color-text-base);
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
 }
 
 .container {
-    width: 90vw;
-    max-width: 700px;
+  width: 90vw;
+  max-width: 700px;
 }
 
 @media (min-width: 700px) {
-    :root {
-        font-size: 62.5%;
-    }
+  :root {
+    font-size: 62.5%;
+  }
 }
